@@ -1,0 +1,80 @@
+//nestin
+nav{
+    background-color:rgb(235, 243, 243);
+    font-size:$mainsie;
+    a{
+      display: flex;
+      justify-content: space-between;
+      align-items:$maincen;
+      margin-left: 50px;
+      &:hover{
+        text-decoration: overline;
+      }
+    } 
+}
+header img {
+ width: 100%;
+}
+h1{
+  @include textos(20px,black,center)
+}
+p{
+  @include servicios(16,black,center)
+}
+.table{
+  text-align:$maincen;
+  tr{
+    &:hover{
+      background-color: rgb(88, 209, 240);
+    }
+  }
+}
+#micarousel{
+  width: 100%;
+  height:auto;
+  padding: 20px;
+  margin: auto;
+}
+.Formulario {
+  background: url(../img/fondocont.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin:10;
+}
+form{
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+input,textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 9px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  
+}
+textarea{
+  min-height: 100px;
+  max-height: 300px;
+}
+#boton{
+  background-color:$tercercolor;
+  padding:10px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
+footer{
+  background-color:$secondarycolor;
+}

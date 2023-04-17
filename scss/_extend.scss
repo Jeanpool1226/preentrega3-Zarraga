@@ -1,0 +1,9 @@
+//extend
+.conten{
+    font-size: $mainsie2;
+    color: $maincolor;
+}
+.conten2{
+    justify-content:flex-start;
+    @extend .conten;
+} 

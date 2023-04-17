@@ -1,0 +1,12 @@
+//mixins
+@mixin textos($size,$color,$center){
+    font-size: $mainsie;//variable local
+    color: $maincolor;//variable local
+    text-align: $maincen;//variable local
+}
+
+@mixin servicios($size,$color,$center){
+    font-size: $mainsie2;//variable local
+    color: $maincolor;//variable local
+    text-align: $maincen;//variable local
+}
